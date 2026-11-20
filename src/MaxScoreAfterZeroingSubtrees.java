@@ -39,6 +39,7 @@ public class MaxScoreAfterZeroingSubtrees {
 
     private long dfs(int u) {
         long sum = score[u];
+
         if (tree[u].isEmpty()) {
             return sum;
         }
